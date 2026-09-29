@@ -1,1 +1,168 @@
 # excel-project
+# E-Commerce Sales Dashboard
+
+## Project Overview
+
+The **E-Commerce Sales Dashboard** is an interactive business intelligence dashboard designed to analyze sales performance across products, cities, months, regions, and product categories.
+
+The dashboard transforms raw e-commerce sales data into a clear visual report that helps identify high-performing products, sales trends, geographic performance, and category-level contribution. Interactive slicers allow users to filter the report by **Region, Product Name, and Order Month**, making it easier to perform focused analysis.
+
+## Dashboard Objectives
+
+The primary objectives of this project are to:
+
+* Analyze overall e-commerce sales performance.
+* Identify the highest and lowest-selling products.
+* Understand monthly sales trends and fluctuations.
+* Compare sales performance across different cities.
+* Analyze sales contribution by product category.
+* Provide interactive filtering for detailed business analysis.
+* Present complex sales data in a professional and management-friendly format.
+
+## Key Dashboard Metrics
+
+The dashboard provides an overall sales view with a displayed sales value of approximately **5.50 million** in the product-level analysis.
+
+The product analysis highlights significant differences between high-volume and low-volume products, while the monthly trend provides visibility into changes in sales performance throughout the year.
+
+## Key Project Insights
+
+### 1. Product Performance
+
+The product-level analysis shows a strong concentration of sales among a few products.
+
+| Product      |     Sales |
+| ------------ | --------: |
+| Laptop       | 2,778,277 |
+| Tablet       | 1,380,692 |
+| Watch        |   499,394 |
+| Smartwatch   |   456,094 |
+| Headphones   |   157,073 |
+| Shoes        |   155,676 |
+| Backpack     |    60,545 |
+| Mobile Case  |    27,514 |
+| Book         |    27,261 |
+| Water Bottle |    21,671 |
+
+**Insight:** Laptops and tablets are the dominant products in the dashboard, together accounting for a substantial portion of the displayed product-level sales. The gap between these products and lower-performing products such as books and water bottles indicates a highly concentrated product sales mix.
+
+### 2. Monthly Sales Trend
+
+The monthly trend indicates that sales fluctuate considerably throughout the year.
+
+* March records the highest monthly value shown, at approximately **1.205 million**.
+* January and February also show strong performance.
+* Sales decline significantly from April through June.
+* September represents the lowest point shown, at approximately **467K**.
+* Sales recover during October and November.
+* December maintains a relatively strong level at approximately **681K**.
+
+**Insight:** The business experiences noticeable monthly seasonality, with strong performance during the beginning of the year, a mid-year decline, and a recovery toward the final quarter.
+
+### 3. City-Level Performance
+
+The city analysis shows the following sales/order values displayed in the dashboard:
+
+| City      | Value |
+| --------- | ----: |
+| Delhi     |   223 |
+| Pune      |   199 |
+| Chennai   |   190 |
+| Mumbai    |   190 |
+| Hyderabad |   183 |
+| Bangalore |   178 |
+
+**Insight:** Delhi has the highest city-level value among the locations displayed, while Bangalore has the lowest. Pune, Chennai, and Mumbai show relatively similar performance, indicating a more balanced contribution from these markets.
+
+### 4. Category Performance
+
+The category chart indicates that **Electronics** represents the largest share of the displayed category-level sales, followed by Fashion and Other categories, while Books contribute a comparatively small share.
+
+**Insight:** The business is strongly dependent on electronics-related sales. This concentration creates an opportunity to strengthen other categories to diversify the overall sales portfolio.
+
+### 5. Interactive Analysis
+
+The dashboard includes a dedicated **Report Controller** section with interactive filters for:
+
+* Region
+* Product Name
+* Order Month
+
+Users can combine multiple filters to investigate specific business questions, such as regional product performance or monthly sales for selected products.
+
+## Business Questions Answered
+
+This dashboard can help management answer questions such as:
+
+1. Which products generate the highest sales?
+2. Which products require additional attention?
+3. Which cities contribute the most to overall performance?
+4. How do sales change from month to month?
+5. Which product categories dominate the business?
+6. Which regions are performing strongly?
+7. How does a specific product perform across different months or regions?
+8. Where are opportunities for improving sales diversification?
+
+## Tools and Techniques Used
+
+* **Microsoft Excel**
+* Pivot Tables
+* Pivot Charts
+* Slicers
+* Interactive Dashboard Design
+* Sales Trend Analysis
+* Product-Level Analysis
+* Geographic/City-Level Analysis
+* Category Analysis
+* Data Visualization
+* Business KPI Reporting
+
+## Dashboard Structure
+
+The dashboard is organized into several analytical sections:
+
+**Product Sales Analysis**
+Provides a comparison of sales across individual products.
+
+**Monthly Sales Trend**
+Shows changes in sales performance across the year.
+
+**Category Sales Analysis**
+Displays the contribution of major product categories.
+
+**City Sales Analysis**
+Compares performance across major cities.
+
+**Report Controller**
+Provides interactive slicers that allow users to dynamically filter the dashboard.
+
+## Business Value
+
+This dashboard converts sales data into actionable business information. It enables stakeholders to quickly identify major revenue-driving products, recognize sales fluctuations, compare geographic performance, and understand category concentration.
+
+The interactive design also reduces the time required to manually analyze large datasets and provides a centralized reporting interface for sales performance monitoring.
+
+## Project Outcome
+
+The final dashboard provides a consolidated view of e-commerce sales performance and demonstrates how Excel-based data analysis and visualization can be used to support business reporting and decision-making.
+
+The project focuses on presenting data in a **simple, interactive, and management-friendly format**, allowing users to move from high-level KPIs to detailed product, city, region, and monthly analysis.
+
+## GitHub Project Structure
+
+```text
+Ecommerce-Sales-Dashboard/
+│
+├── README.md
+├── ECommerce_Sales_Dashboard.xlsx
+├── Dashboard/
+│   └── dashboard-screenshot.png
+└── Data/
+    └── sales-data.xlsx
+```
+
+## Conclusion
+
+The E-Commerce Sales Dashboard demonstrates an end-to-end approach to sales data analysis, from organizing sales information to creating interactive visualizations and extracting meaningful business insights.
+
+It can serve as a practical reporting solution for monitoring sales performance, identifying growth opportunities, and supporting data-driven business analysis.
